@@ -1,0 +1,27 @@
+.pagPosts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.post-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+}
+.post-search-box{
+    outline: none;
+    width: 95%;
+    border:1px solid grey ;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius:.5rem ;
+    margin: 2rem;
+  
+}
+#postIamge{
+    width: 40%;
+
+}

@@ -1,0 +1,49 @@
+
+.cardd:hover{
+    transform: scale(1.1);
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+.search-box{
+    outline: none;
+    width: 94%;
+    border:1px solid grey ;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius:.5rem ;
+    margin-top: 2rem;
+    margin-left: 3%;
+}
+.pagUsers{
+    display: flex;
+}
+.pagination{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    font-size: 1.2rem;
+    gap: 10px;
+    margin-top: 6rem;
+   
+}
+.pagination .page-num{
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 3px;
+    border:2px solid #748DFF;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(7, 30, 121) !important;
+
+}
+.pagination .page-num:hover{
+    background-color:#748DFF;
+}
